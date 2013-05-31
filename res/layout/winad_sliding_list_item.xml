@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exchange_banner"
+    style="@style/exchange_listItem_but"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:gravity="left|center" >
+
+        <ImageView
+            android:id="@+id/exchange_appIcon0"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.0dip" />
+
+        <ImageView
+            android:id="@+id/exchange_appIcon1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/exchange_name0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="4.0dip"
+            android:layout_toRightOf="@+id/exchange_appIcon0"
+            android:singleLine="true"
+            android:textColor="#262626"
+            android:textSize="14.0dip" />
+
+        <TextView
+            android:id="@+id/exchange_content0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@+id/exchange_appIcon0"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="#737373"
+            android:textSize="12.0dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

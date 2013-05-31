@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    android:title="@string/menu_export" 
+    android:id="@+id/item_menu_export"
+    android:icon="@drawable/menu_export"></item>
+    <item 
+    android:title="@string/menu_pathclear" 
+    android:id="@+id/item_menu_clear"
+    android:icon="@drawable/menu_pathclear"></item>
+    <item 
+    android:title="@string/app_help" 
+    android:id="@+id/item_menu_help"
+    android:icon="@drawable/menu_help"></item>
+</menu>

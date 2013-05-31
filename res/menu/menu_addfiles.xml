@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    android:title="@string/addpath" 
+    android:id="@+id/item_menu_add" 
+    android:icon="@drawable/menu_add"></item>
+    <item 
+    android:title="@string/app_help" 
+    android:id="@+id/item_menu_help"
+    android:icon="@drawable/menu_help"></item>
+</menu>

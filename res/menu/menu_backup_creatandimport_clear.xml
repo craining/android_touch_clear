@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    android:id="@+id/item_menu_export" 
+    android:titleCondensed="@string/menu_export"
+    android:icon="@drawable/menu_export"></item>
+    <item 
+    android:title="@string/menu_pathclear" 
+    android:id="@+id/item_menu_clear"
+    android:icon="@drawable/menu_pathclear"></item>    
+    <item 
+    android:title="@string/menu_import" 
+    android:id="@+id/item_menu_import"
+    android:icon="@drawable/menu_import"></item>
+    <item 
+    android:title="@string/menu_goback" 
+    android:id="@+id/item_menu_goback"
+    android:icon="@drawable/menu_goback"></item>
+    <item 
+    android:title="@string/menu_delbackupfile" 
+    android:id="@+id/item_menu_delbackup"
+    android:icon="@drawable/menu_delbackupfile"></item>
+    <item 
+    android:title="@string/app_help" 
+    android:id="@+id/item_menu_help"
+    android:icon="@drawable/menu_help"></item>
+</menu>

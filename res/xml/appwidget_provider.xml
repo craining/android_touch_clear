@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:initialLayout="@layout/widget" 
+    android:updatePeriodMillis="500" 
+    android:minWidth="70dp"
+    android:minHeight="50dp"
+    android:configure="com.craining.blog.touchdel.widget.DelWidgetConfig">
+    
+</appwidget-provider>

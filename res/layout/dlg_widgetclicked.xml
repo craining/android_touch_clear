@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <View
+  	android:layout_height="1dip"
+  	android:layout_width="fill_parent"
+  	android:background="@color/white"></View>
+  	
+  	    <ScrollView    
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"> 
+        <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+        
+  <TextView
+  	android:id="@+id/text_showpaths"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_marginLeft="8dip">
+  	</TextView>
+  	<!-- 
+  	<CheckBox
+  		android:layout_marginTop="20dip"
+  		android:id="@+id/check_remember"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:gravity="center_horizontal"
+  		android:text="@string/check_remember">
+  	</CheckBox>
+  	 -->
+  	<CheckBox 
+  	    android:layout_marginTop="20dip"
+        android:id="@+id/check_remember"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_remember"/>
+  	
+  	
+  <View
+  android:layout_marginTop="10dip"
+  	android:layout_height="1dip"
+  	android:layout_width="fill_parent"
+  	android:background="@color/white"></View>
+  	  		
+  	<TableLayout
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+  		android:layout_marginTop="5dip"
+  		android:stretchColumns="0,1">
+  		<TableRow>
+  			<Button
+  				android:id="@+id/btn_dlg_sure"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="@string/sure"
+  				android:layout_column="0">
+  			</Button>
+  			<Button
+  				android:id="@+id/btn_dlg_cancle"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="@string/cancle"
+  				android:layout_column="1">
+  			</Button>
+  		</TableRow>
+  		</TableLayout>
+  		</LinearLayout>
+  		</ScrollView>
+</LinearLayout>

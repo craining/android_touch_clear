@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DelConfig!</string>
+    <string name="app_name">TouchClear</string>
+    <string name="app_auther">【Developed By craining】</string>
+    <string name="addpath">添加文件</string>
+    <string name="addcancle">撤銷添加上壹個</string>
+    <string name="menu_pathclear">清空列表</string>
+    <string name="delall">全部刪除</string>
+    <string name="exit">關閉程序</string>
+    <string name="pre_path">上壹層目錄</string>
+    <string name="rootpath">返回根目錄</string>
+    <string name="finish">完成添加</string>
+    <string name="hint_addpath">長按文件進行添加</string>
+    <string name="hint_emptypath">空目錄</string>
+    <string name="removepathsuccess">解除成功！</string>
+    <string name="addpathsuccess">添加成功！</string>
+    <string name="allpathsremoved">已全部解除！</string>
+    <string name="hint_delconfig">點擊文件進行刪除，長按將解除鎖定</string>
+    <string name="delfilesuccess">文件刪除成功！</string>
+    <string name="delallfilessuccess">文件全部清除成功！</string>
+    <string name="delallfilesfail">文件未完全清除，可能存在受保護的文件</string>
+    <string name="delfilefail">文件刪除失敗！</string>
+    <string name="suretodelonefile">您確定要從存儲卡中刪除此文件？</string>
+    <string name="suretodelallfiles">您確定要從存儲卡上刪除列表中的所有文件？</string>
+    <string name="suretoclear">您確定清空要刪除的文件列表？</string>
+    <string name="deletedtag">" 【已刪】"</string>
+    <string name="cancle">" 取 消 "</string>
+    <string name="sure">" 確  定 "</string>
+    <string name="alarm">"警告："</string>
+    <string name="cannotinto">無法進入，不是目錄！</string>
+    <string name="widget_provider">com.craining.blog.touchdel.DelWidgetConfig</string>
+    <string name="widget_addsuccess">創建桌面小部件成功！</string>
+    <string name="widget_addfail">無法創建桌面小部件！</string>
+    <string name="sdcardunpresent">存儲卡當前不可用！</string>
+    <string name="menu_import">導入備份</string>
+    <string name="menu_export">備份列表</string>
+    <string name="menu_goback">恢複備份</string>
+    <string name="backuperror">備份錯誤！</string>
+    <string name="backupsuccess">備份成功！</string>
+    <string name="datagoback_success">數據恢複成功！</string>
+    <string name="datagoback_fail">數據恢複失敗！</string>
+    <string name="dataimport_success">數據導入成功！</string>
+    <string name="dataimport_fail">數據導入失敗！</string>
+    <string name="noneedbackup">尚沒有數據，無需備份！</string>
+    <string name="cannouintothis">權限不足，無法進入此目錄！請勿添加此文件</string>
+    <string name="cannotdelit">權限不足，無法刪除此文件！請解除此文件</string>
+    <string name="backupfilemissing">備份文件丟失！</string>
+    <string name="pleaseaddfile">請先添加您要鎖定的文件</string>
+    <string name="menu_delbackupfile">刪除備份</string>
+    <string name="backfiledelfail">備份無法刪除！</string>
+    <string name="backfiledeled">備份刪除成功！</string>
+    <string name="check_remember">不再提示</string>
+    <string name="paths_empty">您尚未添加要刪除的目錄！</string>
+    <string name="pahts_alldeled">未占用存儲空間，無需進行刪除！</string>
+    <string name="title_widgetdlg">您確定要刪除以下文件?</string>
+    <string name="onefilesize">占用存儲卡空間爲：</string>
+    <string name="str_chose_email_app">請選擇郵件客戶端軟件：</string>
+    <string name="app_help">軟件說明</string>
+    <string name="helptext">"\n\t\t由于許多軟件會在存儲卡中積累産生大量的臨時文件，無形中占據了存儲卡越來越多的空間。
+    								\n\t\t本程序可以幫您方便快捷的批量刪除存儲卡中的文件，只需點擊桌面小部件即可！
+    								\n\t\t您首先需要添加所要刪除的文件或文件夾，這些文件的體積會不斷更新顯示到桌面小部件上。
+    								\n\t\t壹旦刪除將不可恢複，添加文件時請慎重！請手動添加桌面小插件。"</string>
+
+</resources>

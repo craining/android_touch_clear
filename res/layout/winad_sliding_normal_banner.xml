@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 广告位 "查看"时的UI -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/winad_sliding_ban_top"
+    android:gravity="center"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/exchange_icon"
+        android:layout_width="35.0dip"
+        android:layout_height="35.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.0dip" />
+
+    <ImageView
+        android:id="@+id/exchange_icon1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/exchange_nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/look"
+        android:layout_toRightOf="@+id/exchange_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/exchange_name"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="6.0dip"
+            android:singleLine="true"
+            android:textColor="#ff000000"
+            android:textSize="14.0dip" />
+
+        <TextView
+            android:id="@+id/exchange_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:ellipsize="end"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:textColor="#ff777777"
+            android:textSize="12.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/look"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="20dip" >
+
+        <TextView
+            android:id="@+id/exchange_shrinkTxt"
+            android:layout_width="30.0dip"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:text="查看"
+            android:textColor="#ff000000"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

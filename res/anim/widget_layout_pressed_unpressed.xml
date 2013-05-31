@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--  颜色渐变效果    -->
+    <gradient 
+    	android:startColor="@color/color_light_blue" 
+    	android:endColor="@color/color_bg_darkbule"     
+        android:paddingTop="5dip" 
+        android:angle="0" />
+       
+         
+<!--  按钮四个角的平滑度   -->        
+    <corners android:radius="10dip" />
+<!--  按钮的光环的宽度与颜色   -->
+    <stroke
+         android:width="2dip"
+         android:color="@color/yellow" />
+    
+</shape>
+
